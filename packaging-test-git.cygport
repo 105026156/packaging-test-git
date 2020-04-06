@@ -1,0 +1,19 @@
+# package name
+NAME="packaging-test-git"
+VERSION=1.0
+RELEASE=1
+
+# .hint generation
+CATEGORY="Games"
+SUMMARY="A whackamole simulation in ASCII art"
+DESCRIPTION="A whackamole simulation in ASCII art.
+Intended for use on VT100 terminals at BAUD rates 1200 and
+above.  Uses arrow keys for positioning over moles.  Space
+bar whacks the mole.
+No actual moles will be harmed during execution of this game."
+
+# source and patch files
+SRC_URI="file://///jennap101.ad.innio.com/technik_nec/ETE/TOOLS/apps/cygwin_packages/pacman-packaging-test-1.0.19.tar.gz"
+# PATCH_URI="boffo-1.0-fix-whatever.patch"
+
+# use the standard src_compile, src_install and src_test
